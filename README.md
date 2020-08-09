@@ -1,68 +1,74 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Hosted Link here: https://mrkazmi333.github.io/tooltip/
 
-## Available Scripts
+## Index
 
-In the project directory, you can run:
+- [About](#about)
+- [Preview](#preview)
+- [Usage](#usage)
+  - [Pre-Requisites](#pre-requisites)
+  - [Developmen Environment](#development-environment)
+  - [File Structure](#file-structure)
+  - [Commands](#command)
 
-### `npm start`
+## About
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A basic tooltip funtionality implemention using RecatJS, CSS, HTML which one can easily incorporate in their projects.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Preview
 
-### `npm test`
+<img src="/assets/tooltip1.png"></img>
+<img src="/assets/tooltip2.png"></img>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+To use this code, make sure you have all the `pre-requisites` and your `development environment` is ready. After that you can read about the `file-structure`, which also explains about project struction and how things are working in background. Commands will tell you about the important `commands` you should konow.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Pre-requisites
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+In order to work on this project or to develop it, you need to have some pre-installed tools and knowledge about them. Below are the tools you need to install on your system:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- NPM
+- Nodejs
 
-### `npm run eject`
+### Development Environment
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Once you have all the requirements checked out, you can develop this project. You need to set up the development environment to work on it. Follow the steps given below to setup:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone this repository, write in terminal `git clone https://github.com/mrkazmi333/tooltip.git`.
+2. Go inside the cloned folder using `$ cd tooltip`, and install all the dependencies. `$ npm install`
+3. To test run the dev server. `$ npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### File Structure
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+| No  | File/Folder name   | Details                                                                   |
+| --- | ------------------ | ------------------------------------------------------------------------- |
+| 1   | ./src              | Contains un-built application source code.                                |
+| 2   | ./src/components   | Individual components view, styling, and logic that our application uses. |
+| 3   | ./src/index.css    | Style for the project.                                                    |
+| 4   | ./node_modules/... | Auto installed node packages.                                             |
+| 5   | package.json       | NPM package file for this project.                                        |
+| 6   | package-lock.json  | NPM packages details.                                                     |
+| 7   | .gitignore         | To ignore files to be a part of version control.                          |
+| 8   | ./assets           | For storing the images of application preview.                            |
+| 9   | ./build            | Webpack output the build here, which is then hosted by github pages.      |
 
-## Learn More
+### Commands
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Installing all the dependencies.
+  ```
+  npm install
+  ```
+- Starting development server.
+  ```
+  npm start
+  ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Build
 
-### Code Splitting
+To build the project for production, you can use the following command. The output will be dumped in `/build` folder which is used by the github pages to host the site.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
+$ npm run build
+```
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Feel free to add your own features or improve this one, any kind of help is appreciated.
