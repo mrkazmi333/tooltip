@@ -6,13 +6,13 @@
 - [Preview](#preview)
 - [Usage](#usage)
   - [Pre-Requisites](#pre-requisites)
-  - [Developmen Environment](#development-environment)
+  - [Development Environment](#development-environment)
   - [File Structure](#file-structure)
   - [Commands](#command)
 
 ## About
 
-A basic tooltip funtionality implemention using RecatJS, CSS, HTML which one can easily incorporate in their projects.
+A basic tooltip functionality implementation using ReactJS, CSS, HTML which one can easily incorporate in their projects.
 
 ## Preview
 
